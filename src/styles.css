@@ -1,0 +1,10 @@
+main {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  grid-column-gap: 2rem;
+  padding: 2rem;
+}
+
+main h1 {
+  padding-bottom: 2rem;
+}

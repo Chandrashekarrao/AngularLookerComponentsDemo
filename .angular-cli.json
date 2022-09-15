@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "index": "index.html",
+      "main": "main.ts",
+      "styles": ["styles.css"],
+      "polyfills": "polyfills.ts",
+      "prefix": "app",
+      "scripts": [],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "angular-looker-components",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --prod",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular-react/core": "3.0.0",
+    "@angular/common": "9.1.13",
+    "@angular/compiler": "9.1.13",
+    "@angular/core": "9.1.13",
+    "@angular/platform-browser": "9.1.13",
+    "@angular/platform-browser-dynamic": "9.1.13",
+    "@angular/router": "9.1.13",
+    "@looker/components": "0.12.0",
+    "@looker/sdk": "21.0.5",
+    "core-js": "3.6.4",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-is": "16.13.1",
+    "rxjs": "6.5.4",
+    "styled-components": "5.2.1",
+    "tslib": "1.13.0",
+    "zone.js": "0.10.2"
+  },
+  "devDependencies": {
+    "@angular/cli": "1.6.6",
+    "@angular/compiler-cli": "^5.2.0",
+    "@angular/language-service": "^5.2.0",
+    "@types/core-js": "0.9.46",
+    "@types/node": "~6.0.60",
+    "@types/react": "16.14.4",
+    "@types/react-dom": "16.9.11",
+    "@types/react-is": "16.7.2",
+    "@types/styled-components": "5.1.7",
+    "ts-node": "~4.1.0",
+    "tslint": "~5.9.1",
+    "typescript": "3.9.7"
+  },
+  "keywords": [],
+  "description": ""
+}
